@@ -4,7 +4,8 @@
   "description": "telegram bot wip",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/fede03billy/risp#readme",
   "dependencies": {
-    "telegraf": "^4.11.2"
+    "telegraf": "^4.11.2",
+    "openai": "^3.1.0"
   }
 }
